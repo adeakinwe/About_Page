@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flexbox.css">
+    <link rel="stylesheet" href="active-link.css">
+    <title>FlexBox</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Flex Box</h1>
+        </header>
+        <ul>
+            <li><a href="active-link.html">Home</a></li>
+            <li><a href="AboutHTML.html">About</a></li>
+            <li><a href="flexbox.html">Flex</a></li>
+        </ul>
+        <form>
+        <div class="form-row">
+            <label for="name">Name: </label>
+            <input type="text" id="name">
+        </div>
+        <div class="form-row">
+            <label for="profession">Profession: </label>
+            <input type="text" id="profession">
+        </div>
+    </form>
+
+    <div class="column-layout">
+        <div class="main-column">
+            <h2>Main Column</h2>
+            <p>
+Seeing not seeming yet explore obeisance some here oh, to not him at what footfalls no it lamplight memories. Open
+muttered stepped take that thereis before name with truly. Spoken thou i the quoth no my. What rare and bends thou shall
+this, at once a this guessing. Is more shore i wheeled one peering friends here that, of heaven bore door into fancy i
+this, into lamplight and tempest fancy thy nights youhere beak, a many i of so disaster bust. Nepenthe this name within
+my, and nights the desolate grim word.</p>
+ <p>Of on friends and still stillness sent my stately wind, quaint me we name my ease
+dreams quoth bird, desolate let at my faintly till nameless bore seraphim then. Whom was if truly lord. Lent of songs
+chamber fiend into from and said. Enchanted but for and here, then with this lonely quaint quoth evermore, me me rare
+rare but of. I i unseen though nevernevermore floor i window the said, it obeisance engaged my flitting the stayed the.
+Name here saintly then the shore all. My nothing blessed the ungainly quoth and the. I gently the shaven that my at be,
+upon bird discourse my theeby,.
+            </p>
+        </div>
+        <div class="left-column">
+            <h2>Left Bar</h2>
+            <p>
+                Or something the there and nothing. Once till december i late door one of, though dreary my beak ominous nights and thee
+                nepenthe door, form grim till ashore tempest bird shutter spoken have upon, or startled quoth or gloating and though i
+                morrow, aptly raven of more a guessing nothing.
+            </p>
+        </div>
+        <div class="right-column">
+            <h2>Right Bar</h2>
+            <p>
+                Felt youth tear of rill aught awake. Sullen him mine was gild. Lay his by that there massy would delphis. Thy in vaunted
+                his thy vaunted. Memory yea aisle had wins fellow. Sooth and to a but since to he. Shades later was of know seek or wins
+                few childe.
+            </p>
+        </div>
+        </div>
+
+        <div class="grid-layout">
+            <div class="grid">
+                <h4>Grid One</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto atque ullam repellat ipsa officiis ut, nostrum
+                    debitis vero, ea itaque tempore omnis architecto. Ratione quaerat fuga quia ipsam, mollitia delectus.</p>
+            </div>
+            <div class="grid">
+                <h4>Grid Two</h4>
+                <p>Though basked peace he fellow the a vile feeble he deemed, calm what festal feel his bidding, eremites dome pomp.</p>
+            </div>
+            <div class="grid">
+                <h4>Grid Three</h4>
+                <p>sSaketon estis la bona li tial. Nagxigi direktilon eraris  ne siajn kaj travivis, cxar kiuj gxia la en estas..</p>
+            </div>
+        </div>
+
+        <div class="frame-layout">
+            <div class="frame">
+                <p>1</p>
+            </div>
+            <div class="frame">
+                <p>2</p>
+            </div>
+            <div class="frame">
+                <p>3</p>
+            </div>
+            <div class="frame">
+                <p>4</p>
+            </div>
+            <div class="frame">
+                <p>5</p>
+            </div>
+        </div>
+
+        <div class="banner">
+            <div class="center-me">
+                <h4>Place me in the centre</h4>
+            </div>
+        </div>
+
+        <div class="split-column">
+            <div class="split-1">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, nostrum aliquam, ex iste dolorum tempore numquam vitae
+nihil a maxime culpa fugit quo. Vero laboriosam, reiciendis minus consectetur enim exercitationem consequuntur vel
+voluptatum aliquid, dicta accusamus illo, rerum velit atque saepe non! Aperiam corporis beatae amet cumque porro
+exercitationem dolores dicta cum perferendis alias expedita, magnam architecto nihil veritatis eius? Mollitia excepturi
+necessitatibus ullam beatae id iste adipisci repellat vero natus, dolore molestiae eos accusamus repellendus eveniet
+nam! Mollitia in sunt ullam repellat. Praesentium quam commodi libero autem ut consectetur quae voluptatum quis dolor,
+ex temporibus, blanditiis officia? Aut, dicta?
+            </div>
+            <div class="split-2">
+                <div class="split-2-1">
+                    Many nor at were than to day. Happy are of wassailers of few found, known resolved there had and in.
+                </div>
+                    <div class="split-2-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, ex pariatur! Dolor quo consequuntur voluptate esse!
+                        Cupiditate nobis asperiores nulla provident accusantium, maxime tempora voluptates enim molestiae praesentium, quisquam
+                        velit!
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        const currentLocation = location.href;
+        const linkItem = document.querySelectorAll('a');
+        const linkLength = linkItem.length;
+        for(let i=0; i<linkLength; i++){
+            if(linkItem[i].href === currentLocation){
+                linkItem[i].className = "active"
+            }
+        }
+    </script>
+</body>
+</html>
+    
